@@ -348,7 +348,7 @@ margin-bottom: 15px;}
   display: flex;
   justify-content: center;
   padding: 60px 40px 30px;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 .image-display img {
@@ -356,6 +356,25 @@ margin-bottom: 15px;}
   max-width: 800px;
   height: auto;
   border-radius: 4px;
+}
+
+.artwork-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px 40px 0;
+  text-align: center;
+}
+
+.artwork-details p {
+  font-size: 0.9rem;
+  color: #888888;
+  font-family: "minion-pro", serif;
+  line-height: 1.6;
+}
+
+.artwork-details em {
+  font-style: italic;
+  color: #888888;
 }
 
 .image-description {
@@ -369,6 +388,7 @@ margin-bottom: 15px;}
   font-size: 2rem;
   margin-bottom: 15px;
 }
+
 
 .image-description p {
   font-size: 1.1rem;
@@ -528,8 +548,16 @@ color: var(--white);}
 
   /* INDIVIDUAL PIECE PAGES */
   .image-display {
-    padding: 30px 20px 15px;
+    padding: 30px 20px 5px;
   }
+  .artwork-details {
+  padding: 5px 20px 0;
+  margin: 0 auto;
+}
+
+.artwork-details p {
+  font-size: 0.8rem;
+}
 
   .image-description {
     padding: 20px;
