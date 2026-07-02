@@ -162,7 +162,7 @@ box-sizing: border-box;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-text-align-last: center;
+text-align: center;
 color: var(--white);
 z-index:10;
 display:flex;
@@ -170,6 +170,8 @@ flex-direction: column;
 align-items: center;
 gap: 8px;
 text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+width: 90%;   
+max-width: 500px;
 }
 .hero-text h6 {
   font-family: "minion-pro", serif;
@@ -437,10 +439,12 @@ color: var(--white);}
   /* HERO */
   .hero-text h6 {
     font-size: 1.8rem;
+     width: 85%;
   }
 
   .hero-text p {
     font-size: 1rem;
+     width: 85%;
   }
 
   /* PAGE TITLES */
